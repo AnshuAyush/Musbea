@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1051958715042",
+    "project_id": "musbea",
+    "storage_bucket": "musbea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051958715042:android:862673432eb5364ed6adfb",
+        "android_client_info": {
+          "package_name": "com.example.musbea"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1051958715042-0ifjvpgm2k32duuuaa7lbk7d433h2a6k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvrkeuY7KPfiTcFKPWrUQAf5DIqNZaoig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1051958715042-0ifjvpgm2k32duuuaa7lbk7d433h2a6k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

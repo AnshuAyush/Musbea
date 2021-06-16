@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".createYourAccount"
+    android:background="@color/black"
+    >
+
+    <ImageView
+        android:id="@+id/hello"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/helloneonsign"
+        android:layout_marginBottom="600dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerCrop"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/music1"
+        android:scaleType="fitCenter"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:shadowColor="#1DCFA5"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="20"
+        android:textColor="#fff"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="140dp"
+
+        />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="16dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/white"
+        android:hint="Email"
+        android:textColorHint="@color/white"
+        android:textStyle="bold"
+        android:shadowColor="#00FFC3"
+        android:shadowRadius="4"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="16dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/white"
+        android:hint="Password"
+        android:textColorHint="@color/white"
+        android:textStyle="bold"
+        android:inputType="textPassword"
+        android:shadowColor="#00FFC3"
+        android:shadowRadius="4"
+        android:id="@+id/password"
+        />
+
+    <Button
+        android:id="@+id/create_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="230dp"
+        android:text="CREATE"
+        android:textStyle="bold"
+        android:shadowColor="#00FFC3"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="20"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:backgroundTint="@color/black"
+        />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:lottie_rawRes="@raw/heart_neon"
+        android:layout_marginTop="500dp"
+        android:layout_marginRight="200dp"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"
+        />
+
+
+
+
+
+
+
+</RelativeLayout>

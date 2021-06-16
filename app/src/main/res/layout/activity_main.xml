@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/black"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/login_circle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:lottie_rawRes="@raw/vui"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        android:layout_marginBottom="200dp"
+        />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/sign_in_with_google"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="550dp"
+        app:lottie_rawRes="@raw/google"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="Sign In with Google"
+            android:shadowColor="#cf1d1d"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="9"
+            android:textColor="#ffff"
+            android:layout_marginTop="650dp"
+            android:textStyle="bold"
+
+            />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/bubble"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        android:visibility="gone"
+        app:lottie_rawRes="@raw/bubble"
+        android:scaleType="fitCenter"
+
+
+        />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/spark"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:lottie_rawRes="@raw/spark"
+        app:lottie_autoPlay="false"
+        app:lottie_loop="false"
+        android:visibility="gone"
+        app:lottie_speed="2"
+        />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitStart"
+        android:layout_marginTop="50dp"
+        android:padding="22dp"
+        app:lottie_rawRes="@raw/loader"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"
+        android:visibility="gone"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:text="Sign Up"
+        android:shadowColor="#cf1d1d"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="9"
+        android:textColor="#ffff"
+        android:layout_marginTop="650dp"
+        android:textStyle="bold"
+        />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/sign_UP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:lottie_rawRes="@raw/loader"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="530dp"
+        android:layout_marginRight="30dp"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"
+        />
+
+
+
+
+
+</RelativeLayout>
